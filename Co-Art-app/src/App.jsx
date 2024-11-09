@@ -1,35 +1,54 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import AppRoutes from './AppRoutes';
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [isDark, setIsDark] = useState({
+    dark: true,
+    animating: false,
+  });
+
+  const [isEng, setIsEng] = useState(true);
+
+  // Simulate authentication status
+  const [isAuthenticated, setIsAuthenticated] = useState(true);
+
+  function toggleDark() {
+    setIsDark((old) => ({
+      ...old,
+      animating: true, // Start animation
+    }));
+
+    setTimeout(() => {
+      setIsDark((old) => ({
+        dark: !old.dark, // Toggle dark mode
+        animating: false, // Stop animation
+      }));
+    }, 500); // Match the CSS animation duration
+  }
+
+  function toggleLan() {
+    setIsEng((old) => !old);
+  }
 
   return (
     <>
+      <NavBar 
+        toggleLan={toggleLan} 
+        toggleDark={toggleDark} 
+        isDark={isDark.dark} 
+        isAnimating={isDark.animating} 
+        isEng={isEng} 
+      />
+
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <AppRoutes isDark={isDark.dark} isAuthenticated={isAuthenticated} />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Footer isDark={isDark.dark} isEng={isEng} /> 
     </>
-  )
+  );
 }
 
-export default App
+export default App;
