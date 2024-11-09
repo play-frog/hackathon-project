@@ -8,6 +8,8 @@
 - After 24 hours, the artwork is moved to the gallery, where users can revisit and explore past creations.
 - This evolving collection brings fresh visuals every day, blending technology and creativity in a digital gallery experience.
 
+# 설명
+
 - 우리 웹사이트는 매일 새로운 이미지가 등장하는 독특한 예술 경험을 제공합니다.
 - 각 이미지는 픽셀화된 캔버스로 변환되어, 사용자가 작품을 추가하고 수정할 수 있습니다.
 - 원본 이미지의 색조를 반영한 정교한 팔레트가 각 픽셀화된 작품에 제공되어, 인터랙티브하고 역동적인 느낌을 더합니다.
