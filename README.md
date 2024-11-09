@@ -1,6 +1,6 @@
 ﻿# hackathon-project
 
-# Website Name
+# Co-Art (다함께 그려요)
 
 - Our website showcases a unique art experience where a new image is featured daily.
 - Each image is converted into a pixelated canvas, allowing viewers to add on and modified the art.
