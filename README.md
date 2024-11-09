@@ -1,6 +1,6 @@
 ﻿# hackathon-project
 
-# Website Name
+# Co-Art (다함께 그려요)
 
 - Our website showcases a unique art experience where a new image is featured daily.
 - Each image is converted into a pixelated canvas, allowing viewers to add on and modified the art.
@@ -10,10 +10,10 @@
 
 # 설명
 
-- 우리 웹사이트는 매일 새로운 이미지가 등장하는 독특한 예술 경험을 제공합니다.
-- 각 이미지는 픽셀화된 캔버스로 변환되어, 사용자가 작품을 추가하고 수정할 수 있습니다.
+- 우리 웹사이트는 매일 새로운 이미지가 등장하는 독특한 관객 참여형 예술 경험을 제공합니다.
+- 각 이미지는 픽셀화된 캔버스로 변환되어, 사용자가 픽셀 위에 획을 추가하고 수정할 수 있습니다.
 - 원본 이미지의 색조를 반영한 정교한 팔레트가 각 픽셀화된 작품에 제공되어, 인터랙티브하고 역동적인 느낌을 더합니다.
-- 24시간 후, 작품은 갤러리로 이동하여 사용자가 과거의 창작물을 다시 방문하고 탐색할 수 있습니다.
+- 24시간 후, 작품은 갤러리로 이동하여 사용자가 과거 참여한 작품을 검색하고 다시 방문할 수 있습니다.
 - 매일 새롭게 갱신되는 이 컬렉션은 기술과 창의성이 조화를 이루는 디지털 갤러리 경험을 선사합니다.
 
 # Backend Database
