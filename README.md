@@ -16,6 +16,16 @@
 - 24시간 후, 작품은 갤러리로 이동하여 사용자가 과거의 창작물을 다시 방문하고 탐색할 수 있습니다.
 - 매일 새롭게 갱신되는 이 컬렉션은 기술과 창의성이 조화를 이루는 디지털 갤러리 경험을 선사합니다.
 
+# Backend Database
+
+- Login
+- Register
+- UserProfile - including the time limit
+- (daily) color palette
+- Original art
+- InProgress Pixel
+- Completed Art
+
 # Prerequisites
 
 Instructions for Frontend
